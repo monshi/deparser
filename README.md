@@ -1,4 +1,4 @@
-# deparser
+# deparser [![Build Status](https://travis-ci.org/monshi/deparser.svg?branch=master)](https://travis-ci.org/monshi/deparser)
 Parse package manager lock files (for now yarn.lock) to generate dependency graph.
 
 ## Usage
