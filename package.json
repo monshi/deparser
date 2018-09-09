@@ -1,13 +1,14 @@
 {
   "name": "deparser",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Dependency parser for JavaScript dependencies",
   "main": "index.js",
   "author": "Omid Monshizadeh",
   "license": "MIT",
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prepublish": "yarn test"
   },
   "devDependencies": {
     "chai": "^4.1.2",
