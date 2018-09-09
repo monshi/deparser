@@ -3,7 +3,7 @@ const Deparser = require('../lib/Deparser');
 const treeJSON = require('./fixture/tree.json');
 
 // Test suite
-describe('Basic tests', () => {
+describe('Deparser dependency tests', () => {
   const deparserInstance = new Deparser('test/fixture/package.json', 'test/fixture/yarn.lock');
 
   it('Direct dependency test', () => {
@@ -16,15 +16,38 @@ describe('Basic tests', () => {
     expect(directs[1].version).to.equal(treeJSON[1].version);
   });
 
+  it('Package.json intents test', () => {
+    const intents = deparserInstance.getAllIntents();
+    expect(intents).to.have.lengthOf(4);
+    expect(intents).to.have.members(
+      ['moment@^2.22.2', 'react@^16.4.2', 'mocha@^5.2.0', 'fsevents@^1.2.4']
+    );
+  });
+
   it('Full dependency tree test', () => {
     const dependencyTree = deparserInstance.getDependencyTree();
     assert.deepEqual(dependencyTree, treeJSON);
   });
 
-  it('Package.json intents test', () => {
-    const intents = deparserInstance.getIntents();
-    expect(intents).to.have.lengthOf(2);
-    expect(intents[0]).to.equal('moment@^2.22.2');
-    expect(intents[1]).to.equal('react@^16.4.2');
+  it('Dependency tree to include run time dependencies', () => {
+    const dependencyTree = deparserInstance.getDependencyTree();
+    const dependencies = dependencyTree.filter(dep => dep.type === 'dependencies');
+    expect(dependencies).to.have.lengthOf(2);
+  });
+
+  it('Dependency tree to include dev dependencies', () => {
+    const dependencyTree = deparserInstance.getDependencyTree();
+    const dependencies = dependencyTree.filter(dep => dep.type === 'devDependencies');
+    expect(dependencies).to.have.lengthOf(1);
+    expect(dependencies[0].name).to.equal('mocha');
+    expect(dependencies[0].version).to.equal('5.2.0');
+  });
+
+  it('Dependency tree to include optional dependencies', () => {
+    const dependencyTree = deparserInstance.getDependencyTree();
+    const dependencies = dependencyTree.filter(dep => dep.type === 'optionalDependencies');
+    expect(dependencies).to.have.lengthOf(1);
+    expect(dependencies[0].name).to.equal('fsevents');
+    expect(dependencies[0].version).to.equal('1.2.4');
   });
 });
