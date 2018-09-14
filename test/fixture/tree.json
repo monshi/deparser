@@ -2,12 +2,12 @@
   {
     "name": "moment",
     "version": "2.22.2",
-    "type": "dependencies"
+    "dependencyType": "dependencies"
   },
   {
     "name": "react",
     "version": "16.4.2",
-    "type": "dependencies",
+    "dependencyType": "dependencies",
     "children": [
       {
         "name": "fbjs",
@@ -126,7 +126,7 @@
   {
     "name": "mocha",
     "version": "5.2.0",
-    "type": "devDependencies",
+    "dependencyType": "devDependencies",
     "children": [
       {
         "name": "browser-stdout",
@@ -275,7 +275,7 @@
   {
     "name": "fsevents",
     "version": "1.2.4",
-    "type": "optionalDependencies",
+    "dependencyType": "optionalDependencies",
     "children": [
       {
         "name": "nan",
