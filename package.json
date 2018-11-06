@@ -1,6 +1,6 @@
 {
   "name": "deparser",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "description": "Dependency parser for JavaScript dependencies",
   "main": "index.js",
   "author": "Omid Monshizadeh",
