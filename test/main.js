@@ -52,11 +52,6 @@ describe('Deparser dependency tests', () => {
     expect(dependencies[0].version).to.equal('1.2.4');
   });
 
-  it('Full dependency graph test', () => {
-    const dependencyGraph = deparserInstance.getDependencyGraph();
-    assert.deepEqual(dependencyGraph, graphJSON);
-  });
-
   it('Dependency graph to include run time dependencies', () => {
     const dependencyGraph = deparserInstance.getDependencyGraph();
     const dependencies = dependencyGraph.modules.filter(dep => dep.dependencyType === 'dependencies');
