@@ -3,137 +3,164 @@
     {
       "name": "abbrev",
       "version": "1.1.1",
-      "id": 0
+      "id": 0,
+      "dependencyType": "dependencies"
     },
     {
       "name": "ansi-regex",
       "version": "2.1.1",
-      "id": 1
+      "id": 1,
+      "dependencyType": "dependencies"
     },
     {
       "name": "ansi-regex",
       "version": "3.0.0",
-      "id": 2
+      "id": 2,
+      "dependencyType": "dependencies"
     },
     {
       "name": "aproba",
       "version": "1.2.0",
-      "id": 3
+      "id": 3,
+      "dependencyType": "dependencies"
     },
     {
       "name": "are-we-there-yet",
       "version": "1.1.5",
-      "id": 4
+      "id": 4,
+      "dependencyType": "dependencies"
     },
     {
       "name": "asap",
       "version": "2.0.6",
-      "id": 5
+      "id": 5,
+      "dependencyType": "dependencies"
     },
     {
       "name": "balanced-match",
       "version": "1.0.0",
-      "id": 6
+      "id": 6,
+      "dependencyType": "dependencies"
     },
     {
       "name": "brace-expansion",
       "version": "1.1.11",
-      "id": 7
+      "id": 7,
+      "dependencyType": "dependencies"
     },
     {
       "name": "browser-stdout",
       "version": "1.3.1",
-      "id": 8
+      "id": 8,
+      "dependencyType": "dependencies"
     },
     {
       "name": "chownr",
       "version": "1.0.1",
-      "id": 9
+      "id": 9,
+      "dependencyType": "dependencies"
     },
     {
       "name": "code-point-at",
       "version": "1.1.0",
-      "id": 10
+      "id": 10,
+      "dependencyType": "dependencies"
     },
     {
       "name": "commander",
       "version": "2.15.1",
-      "id": 11
+      "id": 11,
+      "dependencyType": "dependencies"
     },
     {
       "name": "concat-map",
       "version": "0.0.1",
-      "id": 12
+      "id": 12,
+      "dependencyType": "dependencies"
     },
     {
       "name": "console-control-strings",
       "version": "1.1.0",
-      "id": 13
+      "id": 13,
+      "dependencyType": "dependencies"
     },
     {
       "name": "core-js",
       "version": "1.2.7",
-      "id": 14
+      "id": 14,
+      "dependencyType": "dependencies"
     },
     {
       "name": "core-util-is",
       "version": "1.0.2",
-      "id": 15
+      "id": 15,
+      "dependencyType": "dependencies"
     },
     {
       "name": "debug",
       "version": "3.1.0",
-      "id": 16
+      "id": 16,
+      "dependencyType": "dependencies"
     },
     {
       "name": "debug",
       "version": "2.6.9",
-      "id": 17
+      "id": 17,
+      "dependencyType": "dependencies"
     },
     {
       "name": "deep-extend",
       "version": "0.6.0",
-      "id": 18
+      "id": 18,
+      "dependencyType": "dependencies"
     },
     {
       "name": "delegates",
       "version": "1.0.0",
-      "id": 19
+      "id": 19,
+      "dependencyType": "dependencies"
     },
     {
       "name": "detect-libc",
       "version": "1.0.3",
-      "id": 20
+      "id": 20,
+      "dependencyType": "dependencies"
     },
     {
       "name": "diff",
       "version": "3.5.0",
-      "id": 21
+      "id": 21,
+      "dependencyType": "dependencies"
     },
     {
       "name": "encoding",
       "version": "0.1.12",
-      "id": 22
+      "id": 22,
+      "dependencyType": "dependencies"
     },
     {
       "name": "escape-string-regexp",
       "version": "1.0.5",
-      "id": 23
+      "id": 23,
+      "dependencyType": "dependencies"
     },
     {
       "name": "fbjs",
       "version": "0.8.17",
-      "id": 24
+      "id": 24,
+      "dependencyType": "dependencies"
     },
     {
       "name": "fs-minipass",
       "version": "1.2.5",
-      "id": 25
+      "id": 25,
+      "dependencyType": "dependencies"
     },
     {
       "name": "fs.realpath",
       "version": "1.0.0",
-      "id": 26
+      "id": 26,
+      "dependencyType": "dependencies"
     },
     {
       "name": "fsevents",
@@ -144,132 +171,158 @@
     {
       "name": "gauge",
       "version": "2.7.4",
-      "id": 28
+      "id": 28,
+      "dependencyType": "dependencies"
     },
     {
       "name": "glob",
       "version": "7.1.2",
-      "id": 29
+      "id": 29,
+      "dependencyType": "dependencies"
     },
     {
       "name": "glob",
       "version": "7.1.3",
-      "id": 30
+      "id": 30,
+      "dependencyType": "dependencies"
     },
     {
       "name": "growl",
       "version": "1.10.5",
-      "id": 31
+      "id": 31,
+      "dependencyType": "dependencies"
     },
     {
       "name": "has-flag",
       "version": "3.0.0",
-      "id": 32
+      "id": 32,
+      "dependencyType": "dependencies"
     },
     {
       "name": "has-unicode",
       "version": "2.0.1",
-      "id": 33
+      "id": 33,
+      "dependencyType": "dependencies"
     },
     {
       "name": "he",
       "version": "1.1.1",
-      "id": 34
+      "id": 34,
+      "dependencyType": "dependencies"
     },
     {
       "name": "iconv-lite",
       "version": "0.4.24",
-      "id": 35
+      "id": 35,
+      "dependencyType": "dependencies"
     },
     {
       "name": "iconv-lite",
       "version": "0.4.23",
-      "id": 36
+      "id": 36,
+      "dependencyType": "dependencies"
     },
     {
       "name": "ignore-walk",
       "version": "3.0.1",
-      "id": 37
+      "id": 37,
+      "dependencyType": "dependencies"
     },
     {
       "name": "inflight",
       "version": "1.0.6",
-      "id": 38
+      "id": 38,
+      "dependencyType": "dependencies"
     },
     {
       "name": "inherits",
       "version": "2.0.3",
-      "id": 39
+      "id": 39,
+      "dependencyType": "dependencies"
     },
     {
       "name": "ini",
       "version": "1.3.5",
-      "id": 40
+      "id": 40,
+      "dependencyType": "dependencies"
     },
     {
       "name": "is-fullwidth-code-point",
       "version": "1.0.0",
-      "id": 41
+      "id": 41,
+      "dependencyType": "dependencies"
     },
     {
       "name": "is-fullwidth-code-point",
       "version": "2.0.0",
-      "id": 42
+      "id": 42,
+      "dependencyType": "dependencies"
     },
     {
       "name": "is-stream",
       "version": "1.1.0",
-      "id": 43
+      "id": 43,
+      "dependencyType": "dependencies"
     },
     {
       "name": "isarray",
       "version": "1.0.0",
-      "id": 44
+      "id": 44,
+      "dependencyType": "dependencies"
     },
     {
       "name": "isomorphic-fetch",
       "version": "2.2.1",
-      "id": 45
+      "id": 45,
+      "dependencyType": "dependencies"
     },
     {
       "name": "js-tokens",
       "version": "4.0.0",
-      "id": 46
+      "id": 46,
+      "dependencyType": "dependencies"
     },
     {
       "name": "loose-envify",
       "version": "1.4.0",
-      "id": 47
+      "id": 47,
+      "dependencyType": "dependencies"
     },
     {
       "name": "minimatch",
       "version": "3.0.4",
-      "id": 48
+      "id": 48,
+      "dependencyType": "dependencies"
     },
     {
       "name": "minimist",
       "version": "0.0.8",
-      "id": 49
+      "id": 49,
+      "dependencyType": "dependencies"
     },
     {
       "name": "minimist",
       "version": "1.2.0",
-      "id": 50
+      "id": 50,
+      "dependencyType": "dependencies"
     },
     {
       "name": "minipass",
       "version": "2.3.4",
-      "id": 51
+      "id": 51,
+      "dependencyType": "dependencies"
     },
     {
       "name": "minizlib",
       "version": "1.1.0",
-      "id": 52
+      "id": 52,
+      "dependencyType": "dependencies"
     },
     {
       "name": "mkdirp",
       "version": "0.5.1",
-      "id": 53
+      "id": 53,
+      "dependencyType": "dependencies"
     },
     {
       "name": "mocha",
@@ -286,102 +339,122 @@
     {
       "name": "ms",
       "version": "2.0.0",
-      "id": 56
+      "id": 56,
+      "dependencyType": "dependencies"
     },
     {
       "name": "nan",
       "version": "2.11.0",
-      "id": 57
+      "id": 57,
+      "dependencyType": "dependencies"
     },
     {
       "name": "needle",
       "version": "2.2.2",
-      "id": 58
+      "id": 58,
+      "dependencyType": "dependencies"
     },
     {
       "name": "node-fetch",
       "version": "1.7.3",
-      "id": 59
+      "id": 59,
+      "dependencyType": "dependencies"
     },
     {
       "name": "node-pre-gyp",
       "version": "0.10.3",
-      "id": 60
+      "id": 60,
+      "dependencyType": "dependencies"
     },
     {
       "name": "nopt",
       "version": "4.0.1",
-      "id": 61
+      "id": 61,
+      "dependencyType": "dependencies"
     },
     {
       "name": "npm-bundled",
       "version": "1.0.5",
-      "id": 62
+      "id": 62,
+      "dependencyType": "dependencies"
     },
     {
       "name": "npm-packlist",
       "version": "1.1.11",
-      "id": 63
+      "id": 63,
+      "dependencyType": "dependencies"
     },
     {
       "name": "npmlog",
       "version": "4.1.2",
-      "id": 64
+      "id": 64,
+      "dependencyType": "dependencies"
     },
     {
       "name": "number-is-nan",
       "version": "1.0.1",
-      "id": 65
+      "id": 65,
+      "dependencyType": "dependencies"
     },
     {
       "name": "object-assign",
       "version": "4.1.1",
-      "id": 66
+      "id": 66,
+      "dependencyType": "dependencies"
     },
     {
       "name": "once",
       "version": "1.4.0",
-      "id": 67
+      "id": 67,
+      "dependencyType": "dependencies"
     },
     {
       "name": "os-homedir",
       "version": "1.0.2",
-      "id": 68
+      "id": 68,
+      "dependencyType": "dependencies"
     },
     {
       "name": "os-tmpdir",
       "version": "1.0.2",
-      "id": 69
+      "id": 69,
+      "dependencyType": "dependencies"
     },
     {
       "name": "osenv",
       "version": "0.1.5",
-      "id": 70
+      "id": 70,
+      "dependencyType": "dependencies"
     },
     {
       "name": "path-is-absolute",
       "version": "1.0.1",
-      "id": 71
+      "id": 71,
+      "dependencyType": "dependencies"
     },
     {
       "name": "process-nextick-args",
       "version": "2.0.0",
-      "id": 72
+      "id": 72,
+      "dependencyType": "dependencies"
     },
     {
       "name": "promise",
       "version": "7.3.1",
-      "id": 73
+      "id": 73,
+      "dependencyType": "dependencies"
     },
     {
       "name": "prop-types",
       "version": "15.6.2",
-      "id": 74
+      "id": 74,
+      "dependencyType": "dependencies"
     },
     {
       "name": "rc",
       "version": "1.2.8",
-      "id": 75
+      "id": 75,
+      "dependencyType": "dependencies"
     },
     {
       "name": "react",
@@ -392,615 +465,788 @@
     {
       "name": "readable-stream",
       "version": "2.3.6",
-      "id": 77
+      "id": 77,
+      "dependencyType": "dependencies"
     },
     {
       "name": "rimraf",
       "version": "2.6.2",
-      "id": 78
+      "id": 78,
+      "dependencyType": "dependencies"
     },
     {
       "name": "safe-buffer",
       "version": "5.1.2",
-      "id": 79
+      "id": 79,
+      "dependencyType": "dependencies"
     },
     {
       "name": "safer-buffer",
       "version": "2.1.2",
-      "id": 80
+      "id": 80,
+      "dependencyType": "dependencies"
     },
     {
       "name": "sax",
       "version": "1.2.4",
-      "id": 81
+      "id": 81,
+      "dependencyType": "dependencies"
     },
     {
       "name": "semver",
       "version": "5.5.1",
-      "id": 82
+      "id": 82,
+      "dependencyType": "dependencies"
     },
     {
       "name": "set-blocking",
       "version": "2.0.0",
-      "id": 83
+      "id": 83,
+      "dependencyType": "dependencies"
     },
     {
       "name": "setimmediate",
       "version": "1.0.5",
-      "id": 84
+      "id": 84,
+      "dependencyType": "dependencies"
     },
     {
       "name": "signal-exit",
       "version": "3.0.2",
-      "id": 85
+      "id": 85,
+      "dependencyType": "dependencies"
     },
     {
       "name": "string-width",
       "version": "1.0.2",
-      "id": 86
+      "id": 86,
+      "dependencyType": "dependencies"
     },
     {
       "name": "string-width",
       "version": "2.1.1",
-      "id": 87
+      "id": 87,
+      "dependencyType": "dependencies"
     },
     {
       "name": "string_decoder",
       "version": "1.1.1",
-      "id": 88
+      "id": 88,
+      "dependencyType": "dependencies"
     },
     {
       "name": "strip-ansi",
       "version": "3.0.1",
-      "id": 89
+      "id": 89,
+      "dependencyType": "dependencies"
     },
     {
       "name": "strip-ansi",
       "version": "4.0.0",
-      "id": 90
+      "id": 90,
+      "dependencyType": "dependencies"
     },
     {
       "name": "strip-json-comments",
       "version": "2.0.1",
-      "id": 91
+      "id": 91,
+      "dependencyType": "dependencies"
     },
     {
       "name": "supports-color",
       "version": "5.4.0",
-      "id": 92
+      "id": 92,
+      "dependencyType": "dependencies"
     },
     {
       "name": "tar",
       "version": "4.4.6",
-      "id": 93
+      "id": 93,
+      "dependencyType": "dependencies"
     },
     {
       "name": "ua-parser-js",
       "version": "0.7.18",
-      "id": 94
+      "id": 94,
+      "dependencyType": "dependencies"
     },
     {
       "name": "util-deprecate",
       "version": "1.0.2",
-      "id": 95
+      "id": 95,
+      "dependencyType": "dependencies"
     },
     {
       "name": "whatwg-fetch",
       "version": "2.0.4",
-      "id": 96
+      "id": 96,
+      "dependencyType": "dependencies"
     },
     {
       "name": "wide-align",
       "version": "1.1.3",
-      "id": 97
+      "id": 97,
+      "dependencyType": "dependencies"
     },
     {
       "name": "wrappy",
       "version": "1.0.2",
-      "id": 98
+      "id": 98,
+      "dependencyType": "dependencies"
     },
     {
       "name": "yallist",
       "version": "3.0.2",
-      "id": 99
+      "id": 99,
+      "dependencyType": "dependencies"
+    },
+    {
+      "name": "fixture",
+      "version": "1.0.0",
+      "id": 100,
+      "dependencyType": "dependencies"
     }
   ],
   "edges": [
     {
       "source": 4,
-      "target": 19
+      "target": 19,
+      "dependencyType": "dependencies"
     },
     {
       "source": 4,
-      "target": 77
+      "target": 77,
+      "dependencyType": "dependencies"
     },
     {
       "source": 7,
-      "target": 6
+      "target": 6,
+      "dependencyType": "dependencies"
     },
     {
       "source": 7,
-      "target": 12
+      "target": 12,
+      "dependencyType": "dependencies"
     },
     {
       "source": 16,
-      "target": 56
+      "target": 56,
+      "dependencyType": "dependencies"
     },
     {
       "source": 17,
-      "target": 56
+      "target": 56,
+      "dependencyType": "dependencies"
     },
     {
       "source": 22,
-      "target": 36
+      "target": 36,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 14
+      "target": 14,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 45
+      "target": 45,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 47
+      "target": 47,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 66
+      "target": 66,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 73
+      "target": 73,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 84
+      "target": 84,
+      "dependencyType": "dependencies"
     },
     {
       "source": 24,
-      "target": 94
+      "target": 94,
+      "dependencyType": "dependencies"
     },
     {
       "source": 25,
-      "target": 51
+      "target": 51,
+      "dependencyType": "dependencies"
     },
     {
       "source": 27,
-      "target": 57
+      "target": 57,
+      "dependencyType": "dependencies"
     },
     {
       "source": 27,
-      "target": 60
+      "target": 60,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 3
+      "target": 3,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 13
+      "target": 13,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 33
+      "target": 33,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 66
+      "target": 66,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 85
+      "target": 85,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 86
+      "target": 86,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 89
+      "target": 89,
+      "dependencyType": "dependencies"
     },
     {
       "source": 28,
-      "target": 97
+      "target": 97,
+      "dependencyType": "dependencies"
     },
     {
       "source": 29,
-      "target": 26
+      "target": 26,
+      "dependencyType": "dependencies"
     },
     {
       "source": 29,
-      "target": 38
+      "target": 38,
+      "dependencyType": "dependencies"
     },
     {
       "source": 29,
-      "target": 39
+      "target": 39,
+      "dependencyType": "dependencies"
     },
     {
       "source": 29,
-      "target": 48
+      "target": 48,
+      "dependencyType": "dependencies"
     },
     {
       "source": 29,
-      "target": 67
+      "target": 67,
+      "dependencyType": "dependencies"
     },
     {
       "source": 29,
-      "target": 71
+      "target": 71,
+      "dependencyType": "dependencies"
     },
     {
       "source": 30,
-      "target": 26
+      "target": 26,
+      "dependencyType": "dependencies"
     },
     {
       "source": 30,
-      "target": 38
+      "target": 38,
+      "dependencyType": "dependencies"
     },
     {
       "source": 30,
-      "target": 39
+      "target": 39,
+      "dependencyType": "dependencies"
     },
     {
       "source": 30,
-      "target": 48
+      "target": 48,
+      "dependencyType": "dependencies"
     },
     {
       "source": 30,
-      "target": 67
+      "target": 67,
+      "dependencyType": "dependencies"
     },
     {
       "source": 30,
-      "target": 71
+      "target": 71,
+      "dependencyType": "dependencies"
     },
     {
       "source": 35,
-      "target": 80
+      "target": 80,
+      "dependencyType": "dependencies"
     },
     {
       "source": 36,
-      "target": 80
+      "target": 80,
+      "dependencyType": "dependencies"
     },
     {
       "source": 37,
-      "target": 48
+      "target": 48,
+      "dependencyType": "dependencies"
     },
     {
       "source": 38,
-      "target": 67
+      "target": 67,
+      "dependencyType": "dependencies"
     },
     {
       "source": 38,
-      "target": 98
+      "target": 98,
+      "dependencyType": "dependencies"
     },
     {
       "source": 41,
-      "target": 65
+      "target": 65,
+      "dependencyType": "dependencies"
     },
     {
       "source": 45,
-      "target": 59
+      "target": 59,
+      "dependencyType": "dependencies"
     },
     {
       "source": 45,
-      "target": 96
+      "target": 96,
+      "dependencyType": "dependencies"
     },
     {
       "source": 47,
-      "target": 46
+      "target": 46,
+      "dependencyType": "dependencies"
     },
     {
       "source": 48,
-      "target": 7
+      "target": 7,
+      "dependencyType": "dependencies"
     },
     {
       "source": 51,
-      "target": 79
+      "target": 79,
+      "dependencyType": "dependencies"
     },
     {
       "source": 51,
-      "target": 99
+      "target": 99,
+      "dependencyType": "dependencies"
     },
     {
       "source": 52,
-      "target": 51
+      "target": 51,
+      "dependencyType": "dependencies"
     },
     {
       "source": 53,
-      "target": 49
+      "target": 49,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 8
+      "target": 8,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 11
+      "target": 11,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 16
+      "target": 16,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 21
+      "target": 21,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 23
+      "target": 23,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 29
+      "target": 29,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 31
+      "target": 31,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 34
+      "target": 34,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 48
+      "target": 48,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 53
+      "target": 53,
+      "dependencyType": "dependencies"
     },
     {
       "source": 54,
-      "target": 92
+      "target": 92,
+      "dependencyType": "dependencies"
     },
     {
       "source": 58,
-      "target": 17
+      "target": 17,
+      "dependencyType": "dependencies"
     },
     {
       "source": 58,
-      "target": 35
+      "target": 35,
+      "dependencyType": "dependencies"
     },
     {
       "source": 58,
-      "target": 81
+      "target": 81,
+      "dependencyType": "dependencies"
     },
     {
       "source": 59,
-      "target": 22
+      "target": 22,
+      "dependencyType": "dependencies"
     },
     {
       "source": 59,
-      "target": 43
+      "target": 43,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 20
+      "target": 20,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 53
+      "target": 53,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 58
+      "target": 58,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 61
+      "target": 61,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 63
+      "target": 63,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 64
+      "target": 64,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 75
+      "target": 75,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 78
+      "target": 78,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 82
+      "target": 82,
+      "dependencyType": "dependencies"
     },
     {
       "source": 60,
-      "target": 93
+      "target": 93,
+      "dependencyType": "dependencies"
     },
     {
       "source": 61,
-      "target": 0
+      "target": 0,
+      "dependencyType": "dependencies"
     },
     {
       "source": 61,
-      "target": 70
+      "target": 70,
+      "dependencyType": "dependencies"
     },
     {
       "source": 63,
-      "target": 37
+      "target": 37,
+      "dependencyType": "dependencies"
     },
     {
       "source": 63,
-      "target": 62
+      "target": 62,
+      "dependencyType": "dependencies"
     },
     {
       "source": 64,
-      "target": 4
+      "target": 4,
+      "dependencyType": "dependencies"
     },
     {
       "source": 64,
-      "target": 13
+      "target": 13,
+      "dependencyType": "dependencies"
     },
     {
       "source": 64,
-      "target": 28
+      "target": 28,
+      "dependencyType": "dependencies"
     },
     {
       "source": 64,
-      "target": 83
+      "target": 83,
+      "dependencyType": "dependencies"
     },
     {
       "source": 67,
-      "target": 98
+      "target": 98,
+      "dependencyType": "dependencies"
     },
     {
       "source": 70,
-      "target": 68
+      "target": 68,
+      "dependencyType": "dependencies"
     },
     {
       "source": 70,
-      "target": 69
+      "target": 69,
+      "dependencyType": "dependencies"
     },
     {
       "source": 73,
-      "target": 5
+      "target": 5,
+      "dependencyType": "dependencies"
     },
     {
       "source": 74,
-      "target": 47
+      "target": 47,
+      "dependencyType": "dependencies"
     },
     {
       "source": 74,
-      "target": 66
+      "target": 66,
+      "dependencyType": "dependencies"
     },
     {
       "source": 75,
-      "target": 18
+      "target": 18,
+      "dependencyType": "dependencies"
     },
     {
       "source": 75,
-      "target": 40
+      "target": 40,
+      "dependencyType": "dependencies"
     },
     {
       "source": 75,
-      "target": 50
+      "target": 50,
+      "dependencyType": "dependencies"
     },
     {
       "source": 75,
-      "target": 91
+      "target": 91,
+      "dependencyType": "dependencies"
     },
     {
       "source": 76,
-      "target": 24
+      "target": 24,
+      "dependencyType": "dependencies"
     },
     {
       "source": 76,
-      "target": 47
+      "target": 47,
+      "dependencyType": "dependencies"
     },
     {
       "source": 76,
-      "target": 66
+      "target": 66,
+      "dependencyType": "dependencies"
     },
     {
       "source": 76,
-      "target": 74
+      "target": 74,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 15
+      "target": 15,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 39
+      "target": 39,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 44
+      "target": 44,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 72
+      "target": 72,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 79
+      "target": 79,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 88
+      "target": 88,
+      "dependencyType": "dependencies"
     },
     {
       "source": 77,
-      "target": 95
+      "target": 95,
+      "dependencyType": "dependencies"
     },
     {
       "source": 78,
-      "target": 30
+      "target": 30,
+      "dependencyType": "dependencies"
     },
     {
       "source": 86,
-      "target": 10
+      "target": 10,
+      "dependencyType": "dependencies"
     },
     {
       "source": 86,
-      "target": 41
+      "target": 41,
+      "dependencyType": "dependencies"
     },
     {
       "source": 86,
-      "target": 89
+      "target": 89,
+      "dependencyType": "dependencies"
     },
     {
       "source": 87,
-      "target": 42
+      "target": 42,
+      "dependencyType": "dependencies"
     },
     {
       "source": 87,
-      "target": 90
+      "target": 90,
+      "dependencyType": "dependencies"
     },
     {
       "source": 88,
-      "target": 79
+      "target": 79,
+      "dependencyType": "dependencies"
     },
     {
       "source": 89,
-      "target": 1
+      "target": 1,
+      "dependencyType": "dependencies"
     },
     {
       "source": 90,
-      "target": 2
+      "target": 2,
+      "dependencyType": "dependencies"
     },
     {
       "source": 92,
-      "target": 32
+      "target": 32,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 9
+      "target": 9,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 25
+      "target": 25,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 51
+      "target": 51,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 52
+      "target": 52,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 53
+      "target": 53,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 79
+      "target": 79,
+      "dependencyType": "dependencies"
     },
     {
       "source": 93,
-      "target": 99
+      "target": 99,
+      "dependencyType": "dependencies"
     },
     {
       "source": 97,
-      "target": 87
+      "target": 87,
+      "dependencyType": "dependencies"
+    },
+    {
+      "source": 100,
+      "target": 27,
+      "dependencyType": "optionalDependencies"
+    },
+    {
+      "source": 100,
+      "target": 54,
+      "dependencyType": "devDependencies"
+    },
+    {
+      "source": 100,
+      "target": 55,
+      "dependencyType": "dependencies"
+    },
+    {
+      "source": 100,
+      "target": 76,
+      "dependencyType": "dependencies"
     }
   ]
 }
