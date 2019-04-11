@@ -2,12 +2,12 @@
   {
     "name": "moment",
     "version": "2.22.2",
-    "dependencyType": "dependencies"
+    "dependencyType": "dependency"
   },
   {
     "name": "react",
     "version": "16.4.2",
-    "dependencyType": "dependencies",
+    "dependencyType": "dependency",
     "children": [
       {
         "name": "fbjs",
@@ -275,7 +275,7 @@
   {
     "name": "fsevents",
     "version": "1.2.4",
-    "dependencyType": "optionalDependencies",
+    "dependencyType": "optionalDependency",
     "children": [
       {
         "name": "nan",

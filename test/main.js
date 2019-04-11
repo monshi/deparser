@@ -26,13 +26,13 @@ describe('Deparser dependency tests', () => {
 
   it('Dependency tree to include run time dependencies', () => {
     const dependencyTree = deparserInstance.getDependencyTree();
-    const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'dependencies');
+    const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'dependency');
     expect(dependencies).to.have.lengthOf(2);
   });
 
   it('Dependency tree to include dev dependencies', () => {
     const dependencyTree = deparserInstance.getDependencyTree();
-    const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'devDependencies');
+    const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'devDependency');
     expect(dependencies).to.have.lengthOf(1);
     expect(dependencies[0].name).to.equal('mocha');
     expect(dependencies[0].version).to.equal('5.2.0');
@@ -40,7 +40,7 @@ describe('Deparser dependency tests', () => {
 
   it('Dependency tree to include optional dependencies', () => {
     const dependencyTree = deparserInstance.getDependencyTree();
-    const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'optionalDependencies');
+    const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'optionalDependency');
     expect(dependencies).to.have.lengthOf(1);
     expect(dependencies[0].name).to.equal('fsevents');
     expect(dependencies[0].version).to.equal('1.2.4');
@@ -48,7 +48,7 @@ describe('Deparser dependency tests', () => {
 
   it('Dependency graph to include dev dependencies', () => {
     const dependencyGraph = deparserInstance.getDependencyGraph();
-    const dependencies = dependencyGraph.modules.filter(dep => dep.dependencyType === 'devDependencies');
+    const dependencies = dependencyGraph.modules.filter(dep => dep.dependencyType === 'devDependency');
     expect(dependencies).to.have.lengthOf(1);
     expect(dependencies[0].name).to.equal('mocha');
     expect(dependencies[0].version).to.equal('5.2.0');
@@ -56,7 +56,7 @@ describe('Deparser dependency tests', () => {
 
   it('Dependency graph to include optional dependencies', () => {
     const dependencyGraph = deparserInstance.getDependencyGraph();
-    const dependencies = dependencyGraph.modules.filter(dep => dep.dependencyType === 'optionalDependencies');
+    const dependencies = dependencyGraph.modules.filter(dep => dep.dependencyType === 'optionalDependency');
     expect(dependencies).to.have.lengthOf(1);
     expect(dependencies[0].name).to.equal('fsevents');
     expect(dependencies[0].version).to.equal('1.2.4');
