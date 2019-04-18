@@ -24,6 +24,10 @@ describe('Deparser dependency tests', () => {
     );
   });
 
+  it ('Root package has root set to true', () => {
+    expect(deparserInstance.getRootPackage().root).to.equal(true);
+  });
+
   it('Dependency tree to include run time dependencies', () => {
     const dependencyTree = deparserInstance.getDependencyTree();
     const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'dependency');
@@ -61,4 +65,5 @@ describe('Deparser dependency tests', () => {
     expect(dependencies[0].name).to.equal('fsevents');
     expect(dependencies[0].version).to.equal('1.2.4');
   });
+  
 });
