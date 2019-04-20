@@ -1,6 +1,5 @@
-const {expect, assert} = require('chai');
+const {expect} = require('chai');
 const Deparser = require('../lib/Deparser');
-const treeJSON = require('./fixture/tree.json');
 
 // Test suite
 describe('Deparser dependency tests', () => {
@@ -8,6 +7,7 @@ describe('Deparser dependency tests', () => {
 
   it('Direct dependency test', () => {
     const directs = deparserInstance.getDirectDependencies();
+    const treeJSON = deparserInstance.getDependencyTree();
     expect(directs).to.have.lengthOf(treeJSON.length);
     expect(directs[0].name).to.equal(treeJSON[0].name);
     expect(directs[0].version).to.equal(treeJSON[0].version);
@@ -18,9 +18,9 @@ describe('Deparser dependency tests', () => {
 
   it('Package.json intents test', () => {
     const intents = deparserInstance.getAllIntents();
-    expect(intents).to.have.lengthOf(4);
+    expect(intents).to.have.lengthOf(5);
     expect(intents).to.have.members(
-      ['moment@^2.22.2', 'react@^16.4.2', 'mocha@^5.2.0', 'fsevents@^1.2.4']
+      ['moment@^2.22.2', 'react@^16.4.2', 'mocha@^5.2.0', 'fsevents@^1.2.4', 'jsonfile@^5.0.0']
     );
   });
 
@@ -31,7 +31,7 @@ describe('Deparser dependency tests', () => {
   it('Dependency tree to include run time dependencies', () => {
     const dependencyTree = deparserInstance.getDependencyTree();
     const dependencies = dependencyTree.filter(dep => dep.dependencyType === 'dependency');
-    expect(dependencies).to.have.lengthOf(2);
+    expect(dependencies).to.have.lengthOf(3);
   });
 
   it('Dependency tree to include dev dependencies', () => {
