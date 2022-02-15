@@ -13,5 +13,8 @@
   },
   "optionalDependencies": {
     "fsevents": "^1.2.4"
+  },
+  "resolutions": {
+    "mocha": "^5.1.0"
   }
 }
